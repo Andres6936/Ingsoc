@@ -11,4 +11,15 @@ drawn on screen with the Bearlibterminal library (Great tool).
 
 # Interface
 
+![Interfaz](/Docs/Interfaz.png)
+
 # How to compile
+
+To compile the project, you need a GCC 4.8 or later compiler and CMake.
+
+```
+cmake CMakeLists.txt
+make
+./Bear
+```
+Thanks ...

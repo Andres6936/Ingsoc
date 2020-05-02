@@ -7,7 +7,7 @@ void DrawTitle()
 	FILE *fileCVS;
 
 	// Exit program if file cannot be opened.
-	if((fileCVS = fopen("../Data/Scenes/TitleScene.csv", "r")) == NULL)
+	if((fileCVS = fopen("../Data/Scenes/TitleScene.csv", "r")) == nullptr)
 	{
 		puts("File could not be opened");
 	}
@@ -25,29 +25,29 @@ void DrawTitle()
 		char colorForeground[8]; // Format is #AABBCC
 		char colorBackground[8]; // Format is #AABBCC
 
-		while(fgets(buffer, BUFFER_SIZE, fileCVS) != NULL)
+		while(fgets(buffer, BUFFER_SIZE, fileCVS) != nullptr)
 		{
 			// Get coordinate X.
 			parser = strtok(buffer, ",");
 			x = (short) atoi(parser);
 
 			// Get coordinate Y.
-			parser = strtok(NULL, ",");
+			parser = strtok(nullptr, ",");
 			y = (short) atoi(parser);
 
 			// Get glyph.
-			parser = strtok(NULL, ",");
+			parser = strtok(nullptr, ",");
 			glyph = (short) atoi(parser);
 
 			//NOTE: Clear code.
 			// Get color foreground in string with format hexadecimal.
-			parser = strtok(NULL, ",");
+			parser = strtok(nullptr, ",");
 			memcpy(colorForeground, parser, sizeof(parser));
 			colorForeground[sizeof(parser)] = '\0';
 
 			//NOTE: Clear code.
 			// Get color background in string with format hexadecimal.
-			parser = strtok(NULL, ",");
+			parser = strtok(nullptr, ",");
 			memcpy(colorBackground, parser, sizeof(parser));
 			colorBackground[sizeof(parser)] = '\0';
 

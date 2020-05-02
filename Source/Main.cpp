@@ -1,11 +1,9 @@
 #include <BearLibTerminal/BearLibTerminal.hpp>
 
-#include "Include/Direction.h"
 #include "Include/Player.h"
 #include "Include/Dungeon.h"
 #include "Include/Event.h"
 #include "Include/Scene.h"
-
 
 int main(int argc, char **argv)
 {
@@ -28,8 +26,6 @@ int main(int argc, char **argv)
 	TerminalClear();
 
 	DrawTitle();
-	//DrawDungeon(dungeon);
-	//DrawPlayer(&player);
 
 	TerminalRefresh();
 
@@ -40,14 +36,6 @@ int main(int argc, char **argv)
 
 		HandleEvent(key);
 		HandleEventPlayer(key, &player);
-
-		//terminal_clear();
-
-		//DrawDungeon(dungeon);
-		//DrawPlayer(&player);
-
-		//terminal_refresh();
-
 	}
 
 	TerminalClose();

@@ -32,9 +32,3 @@ void Walk(Player* player, Direction direction);
  */
 void HandleEventPlayer(int key, Player* player);
 
-/**
- * Draw the player in terminal.
- *
- * @param player: Player to draw.
- */
-void DrawPlayer(Player* player);

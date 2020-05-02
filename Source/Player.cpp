@@ -41,8 +41,3 @@ void HandleEventPlayer(int key, Player* player)
 		Walk(player, EAST);
 	}
 }
-
-void DrawPlayer(Player* player)
-{
-	TerminalPut(player->x, player->y, player->glyph);
-}

@@ -11,7 +11,3 @@ const char DUNGEON_COLUMN = 40;
  */
 void CreateDungeon(char dungeon[][DUNGEON_COLUMN]);
 
-/**
- * Draw the dungeon
- */
-void DrawDungeon(char dungeon[][DUNGEON_COLUMN]);

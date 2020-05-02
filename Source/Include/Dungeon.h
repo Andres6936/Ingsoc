@@ -1,10 +1,10 @@
 // Only include file once
 #pragma once
 
-#include "BearLibTerminal.h"
+#include <BearLibTerminal/BearLibTerminal.hpp>
 
-extern const char DUNGEON_ROW;
-extern const char DUNGEON_COLUMN;
+const char DUNGEON_ROW = 60;
+const char DUNGEON_COLUMN = 40;
 
 /**
  * Initialize all index of dungeon to value predefine.

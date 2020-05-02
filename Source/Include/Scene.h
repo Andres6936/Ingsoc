@@ -1,10 +1,10 @@
 // Only include file once
 #pragma once
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
 
-#include "BearLibTerminal.h"
+#include <BearLibTerminal/BearLibTerminal.hpp>
 
 void DrawTitle();

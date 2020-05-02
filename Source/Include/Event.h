@@ -1,7 +1,7 @@
 // Only include file once
 #pragma once
 
-#include "BearLibTerminal.h"
+#include <BearLibTerminal/BearLibTerminal.hpp>
 
 /**
  * Handle the events specific to application, for example

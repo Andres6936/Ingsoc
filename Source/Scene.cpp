@@ -1,4 +1,4 @@
-#include "Include/Scene.h"
+#include "Ingsoc/Scene.h"
 
 const short BUFFER_SIZE = 30;
 

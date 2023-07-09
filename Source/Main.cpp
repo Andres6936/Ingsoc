@@ -1,9 +1,9 @@
 #include <BearLibTerminal/BearLibTerminal.hpp>
 
-#include "Include/Player.h"
-#include "Include/Dungeon.h"
-#include "Include/Event.h"
-#include "Include/Scene.h"
+#include "Ingsoc/Player.h"
+#include "Ingsoc/Dungeon.h"
+#include "Ingsoc/Event.h"
+#include "Ingsoc/Scene.h"
 
 int main(int argc, char **argv)
 {

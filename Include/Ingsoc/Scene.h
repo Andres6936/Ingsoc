@@ -5,6 +5,6 @@
 #include <cstdlib>
 #include <cstring>
 
-#include <BearLibTerminal/BearLibTerminal.hpp>
+#include "BearLibTerminal/BearLibTerminal.hpp"
 
 void DrawTitle();

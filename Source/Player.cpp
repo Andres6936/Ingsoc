@@ -1,4 +1,4 @@
-#include "Include/Player.h"
+#include "Ingsoc/Player.h"
 
 
 void Walk(Player* player, Direction direction)

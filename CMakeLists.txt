@@ -6,12 +6,7 @@ INCLUDE(CMakeModules/CPM.cmake)
 
 ### Add dependencies via CPM
 # Add BearLibTerminal like dependency
-CPMADDPACKAGE(
-		NAME BearLibTerminal
-		GITHUB_REPOSITORY Andres6936/BearLibTerminal
-		VERSION 2020.4
-)
-
+CPMADDPACKAGE(gh:Andres6936/BearLibTerminal@2020.12)
 
 ADD_EXECUTABLE(Ingsoc
 		Source/Main.cpp
